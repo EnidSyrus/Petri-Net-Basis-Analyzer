@@ -1,0 +1,31 @@
+BRG Observer File: Example4_20220224171133_OBS20220224171329.txt
+Input BRG File Name: Example4_20220224171133.brg
+Input Label File Name: Example4_Label.txt
+
+==========Observer Info==========
+#States: 6 
+State 0: M0 
+State 1: M1 M2 
+State 2: M2 
+State 3: M3 M4 M5 
+State 4: M4 M5 
+State 5: M0 M4 M5 
+
+#Arcs: 9 
+Arc 0:  State 0 --> a --> State 1
+Arc 1:  State 1 --> b --> State 2
+Arc 2:  State 1 --> a --> State 3
+Arc 3:  State 2 --> b --> State 2
+Arc 4:  State 2 --> a --> State 4
+Arc 5:  State 3 --> b --> State 5
+Arc 6:  State 4 --> b --> State 5
+Arc 7:  State 5 --> b --> State 5
+Arc 8:  State 5 --> a --> State 1
+
+#Basis Markings: 6 
+M0: (2, 0, 0, 0, 0, 0)
+M1: (1, 1, 0, 0, 0, 0)
+M2: (1, 0, 0, 0, 0, 1)
+M3: (0, 2, 0, 0, 0, 0)
+M4: (0, 1, 0, 0, 0, 1)
+M5: (0, 0, 0, 0, 0, 2)

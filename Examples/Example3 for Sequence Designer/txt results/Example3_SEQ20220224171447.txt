@@ -1,0 +1,24 @@
+Optimal Control Sequence File: Example3_SEQ20220224171447.txt
+Net File Name: Example3.ndr
+Constraints File Name: Example3_Metadata.txt
+
+===============Input Info===============
+Place (12) : p01,  p02,  p03,  p04,  p05,  p06,  p07,  p08,  p09,  p10,  p11,  p12
+Transition (8) : t1,  t2,  t3,  t4,  t5,  t6,  t7,  t8
+Initial Marking M0: (1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0)
+Cost: t1=1.0, t2=1.0, t3=6.0, t4=2.0, t5=2.0, t6=2.0, t7=6.0, t8=2.0
+Target (1) [Conjunction]:
+(-1)*p12 <= -1
+Forbid (2) [Disjunction]:
+(-1)*p07 + (-1)*p08 <= -2
+(-1)*p11 <= -1
+
+===============Output Info===============
+Explicit Transition in the optimal sequence: t4, t5, t7, t8
+Automatically Fill in Explicit Transition Time: 0.015625 s
+Compute Optimal Control Sequence Time: 0.000000 s
+Graph size: 5
+Optimal Cost: 10.0
+Optimal Control Sequence: 
+--> [1, 0, 0, 0, 0, 0, 0, 0] --> t4
+--> [0, 1, 0, 0, 0, 0, 0, 0] --> t7
