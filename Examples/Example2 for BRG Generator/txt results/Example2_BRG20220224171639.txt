@@ -1,0 +1,64 @@
+Basis Reachability Graph File: Example2_BRG20220224171639.txt
+Net File Name: Example2.ndr
+ExpTrans File Name: Example2_TE.txt
+
+===============Net Info===============
+Number of Places: 6
+Names of Places: p1, p2, p3, p4, p5, p6
+Number of Transitions: 8
+Names of Transitions: t1, t2, t3, t4, t5, t6, t7, t8
+Initial Marking M0: (2, 0, 0, 0, 0, 0)
+Pre Matrix: 
+[[1 1 0 0 0 0 0 0]
+ [0 0 1 0 0 0 0 0]
+ [0 0 0 1 0 0 0 0]
+ [0 0 0 0 1 0 0 0]
+ [0 0 0 0 0 1 0 0]
+ [0 0 0 0 0 0 1 2]]
+Post Matrix: 
+[[0 0 0 0 0 0 0 2]
+ [1 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0 0]
+ [0 0 1 0 0 0 1 0]
+ [0 0 0 1 0 0 0 0]
+ [0 0 0 0 1 1 0 0]]
+Incidence Matrix: 
+[[-1 -1  0  0  0  0  0  2]
+ [ 1  0 -1  0  0  0  0  0]
+ [ 0  1  0 -1  0  0  0  0]
+ [ 0  0  1  0 -1  0  1  0]
+ [ 0  0  0  1  0 -1  0  0]
+ [ 0  0  0  0  1  1 -1 -2]]
+
+==========Explicit Trans Info==========
+Number of Explicit Transitions: 4
+List of Explicit Transitions: t1, t5, t6, t8
+Explicit Transitions Index: [0, 4, 5, 7]
+
+===============BRG Data===============
+Execution Time: 0.000000 second(s)
+Number of Basis Markings: 6
+Number of Arcs: 13
+
+List of Basis Markings: 
+Marking M0: 	[2, 0, 0, 0, 0, 0]
+Marking M1: 	[1, 1, 0, 0, 0, 0]
+Marking M2: 	[1, 0, 0, 0, 0, 1]
+Marking M3: 	[0, 2, 0, 0, 0, 0]
+Marking M4: 	[0, 1, 0, 0, 0, 1]
+Marking M5: 	[0, 0, 0, 0, 0, 2]
+
+List of Arcs: 
+Arc 0:	[M0--> M1]	Tag:  (t1 , [0, 0, 0, 0, 0, 0, 0, 0])
+Arc 1:	[M0--> M2]	Tag:  (t6 , [0, 1, 0, 1, 0, 0, 0, 0])
+Arc 2:	[M1--> M2]	Tag:  (t5 , [0, 0, 1, 0, 0, 0, 0, 0])
+Arc 3:	[M1--> M3]	Tag:  (t1 , [0, 0, 0, 0, 0, 0, 0, 0])
+Arc 4:	[M1--> M4]	Tag:  (t6 , [0, 1, 0, 1, 0, 0, 0, 0])
+Arc 5:	[M2--> M2]	Tag:  (t5 , [0, 0, 0, 0, 0, 0, 1, 0])
+Arc 6:	[M2--> M4]	Tag:  (t1 , [0, 0, 0, 0, 0, 0, 0, 0])
+Arc 7:	[M2--> M5]	Tag:  (t6 , [0, 1, 0, 1, 0, 0, 0, 0])
+Arc 8:	[M3--> M4]	Tag:  (t5 , [0, 0, 1, 0, 0, 0, 0, 0])
+Arc 9:	[M4--> M4]	Tag:  (t5 , [0, 0, 0, 0, 0, 0, 1, 0])
+Arc 10:	[M4--> M5]	Tag:  (t5 , [0, 0, 1, 0, 0, 0, 0, 0])
+Arc 11:	[M5--> M0]	Tag:  (t8 , [0, 0, 0, 0, 0, 0, 0, 0])
+Arc 12:	[M5--> M5]	Tag:  (t5 , [0, 0, 0, 0, 0, 0, 1, 0])

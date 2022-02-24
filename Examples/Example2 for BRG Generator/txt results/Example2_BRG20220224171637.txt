@@ -1,0 +1,49 @@
+Basis Reachability Graph File: Example2_BRG20220224171637.txt
+Net File Name: Example2.ndr
+ExpTrans File Name: Example2_TE.txt
+
+===============Net Info===============
+Number of Places: 6
+Names of Places: p1, p2, p3, p4, p5, p6
+Number of Transitions: 8
+Names of Transitions: t1, t2, t3, t4, t5, t6, t7, t8
+Initial Marking M0: (2, 0, 0, 0, 0, 0)
+Pre Matrix: 
+[[1 1 0 0 0 0 0 0]
+ [0 0 1 0 0 0 0 0]
+ [0 0 0 1 0 0 0 0]
+ [0 0 0 0 1 0 0 0]
+ [0 0 0 0 0 1 0 0]
+ [0 0 0 0 0 0 1 2]]
+Post Matrix: 
+[[0 0 0 0 0 0 0 2]
+ [1 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0 0]
+ [0 0 1 0 0 0 1 0]
+ [0 0 0 1 0 0 0 0]
+ [0 0 0 0 1 1 0 0]]
+Incidence Matrix: 
+[[-1 -1  0  0  0  0  0  2]
+ [ 1  0 -1  0  0  0  0  0]
+ [ 0  1  0 -1  0  0  0  0]
+ [ 0  0  1  0 -1  0  1  0]
+ [ 0  0  0  1  0 -1  0  0]
+ [ 0  0  0  0  1  1 -1 -2]]
+
+==========Explicit Trans Info==========
+Number of Explicit Transitions: 4
+List of Explicit Transitions: t1, t5, t6, t8
+Explicit Transitions Index: [0, 4, 5, 7]
+
+===============BRG Data===============
+Execution Time: 0.000000 second(s)
+Number of Basis Markings: 6
+Number of Arcs: 13
+
+List of Basis Markings: 
+Marking M0: 	[2, 0, 0, 0, 0, 0]
+Marking M1: 	[1, 1, 0, 0, 0, 0]
+Marking M2: 	[1, 0, 0, 0, 0, 1]
+Marking M3: 	[0, 2, 0, 0, 0, 0]
+Marking M4: 	[0, 1, 0, 0, 0, 1]
+Marking M5: 	[0, 0, 0, 0, 0, 2]

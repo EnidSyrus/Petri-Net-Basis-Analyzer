@@ -1,0 +1,24 @@
+Consistent Basis Marking File: CBM20220224171205.txt
+Input Obs File Name: Example4_20220224171133_20220224171151.obs
+Input Word File Name: Example4_Word.txt
+
+===============Output-Concise Form===============
+
+M0 --> abbab --> M0M4M5
+
+#Consistent Basis Marking:
+M0: (2, 0, 0, 0, 0, 0)
+M4: (0, 1, 0, 0, 0, 1)
+M5: (0, 0, 0, 0, 0, 2)
+
+
+===============Output-Normal Form===============
+
+M0 --> a --> M1M2 --> b --> M2 --> b --> M2 --> a --> M4M5 --> b --> M0M4M5
+
+#Consistent Basis Marking:
+M0: (2, 0, 0, 0, 0, 0)
+M1: (1, 1, 0, 0, 0, 0)
+M2: (1, 0, 0, 0, 0, 1)
+M4: (0, 1, 0, 0, 0, 1)
+M5: (0, 0, 0, 0, 0, 2)
