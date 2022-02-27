@@ -315,6 +315,7 @@ PNBA reserves term **'eps'** (note: case sensitive) as the symbol of unobservabl
 The **Label File** is a plain text file (*.txt*). Each line of it consists of the name of a transition and its corresponding label, separated by comma. An example line is: "t01, a".
 
   - The names of all transitions in the **Label File** must occur in the net (case-sensitive).
+  - Some combinations of special characters are reserved for the intermediate computation. In short, we recommend that each label only contains English letters, numbers, and **'-'**, **'_'**.
   - **IMPORTANT:** If a transition is labeled multiple times in the **Label File**, PNBA will take the last label **WITHOUT a warning**. So, please examine the Label File carefully.
 
 A **Label File** may look like the following.
@@ -333,8 +334,6 @@ The output of this function has three optional modes:
 - **console**: results are shown in the log window;
 - **.txt**: the generated BRG observer are saved in a **.txt** file.
 - **.obs**: the BRG observer is saved in an **.obs** file which is then used for module 4b as an input.
-
-
 
 ### Module 4b: Generate Consistent Basis Markings
 
